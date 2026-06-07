@@ -12,11 +12,11 @@ The goal is to build data-driven solutions that help organizations make informed
 ├── Part 1: Salary Prediction
 │   ├── EDA & Feature Engineering (Current Notebook)
 │   ├── Model Building (Regression)
-│
+
 ├── Part 2: Attrition Prediction
 │   ├── Data Preparation
 │   ├── Classification Models
-│
+
 ├── Part 3: Business Insights
 │   ├── Key Findings
 │   ├── Recommendations
@@ -45,7 +45,7 @@ This notebook focuses on understanding the dataset through:
 1. Log transformation of salary to handle skewness
 2. Encoding categorical variables using One-Hot Encoding
 3. Scaling numerical features using StandardScaler
-4. Creation of derived features (if applicable)
+4. Creation of derived features
 
 These steps ensure the dataset is suitable for machine learning models.
 
@@ -68,7 +68,7 @@ XGBoost
 3. Develop classification models for predicting employee attrition
 4. Extract actionable business insights from model results
 
-##Key Outcome (Part 1)
+## Key Outcome (Part 1)
 This phase establishes a strong foundation for predictive modeling by:
 1. Identifying key salary drivers
 2. Preparing clean and transformed data
