@@ -31,7 +31,7 @@ The primary objective of this phase is to analyze salary trends in the tech indu
 2. How do experience and education impact compensation?
 3. Do technical skills significantly affect salary levels?
 4. How does salary vary across different tech domains?
-5. Exploratory Data Analysis (EDA)
+5. Exploratory Data Analysis (EDA) and Prediction of annual salary using ML models
 
 This notebook focuses on understanding the dataset through:
 1. Distribution analysis of salary
@@ -53,7 +53,18 @@ Dataset : https://www.kaggle.com/datasets/mabubakrsiddiq/salary-and-skills-ds-wh
 
 EDA On kaggle : https://www.kaggle.com/code/salonipandagale/eda-for-annual-salary-prediction
 
---------------------------------------------------------------------------------------------
+## Part 1 : Model Development and Optimization 
+### Regression Models
+Multiple models were trained for salary prediction, including Linear Regression, Ridge, Random Forest, Gradient Boosting, and XGBoost, using a consistent preprocessing pipeline.
+
+### Evaluation
+Models were compared using MAE, RMSE, and R² Score to identify the best-performing approach.
+
+### Hyperparameter Tuning
+XGBoost was further optimized using RandomizedSearchCV (50 iterations, 5-fold cross-validation), leading to improved performance.
+
+### Outcome
+The tuned XGBoost model achieved the best results, effectively capturing non-linear patterns in the data.
 
 ## Tools and Technologies
 Python
@@ -63,10 +74,8 @@ Scikit-learn
 XGBoost
 
 ## Next Steps
-1. Build and evaluate regression models for salary prediction
-2. Optimize model performance using hyperparameter tuning
-3. Develop classification models for predicting employee attrition
-4. Extract actionable business insights from model results
+1. Optimize model performance using hyperparameter tuning and more data cleaning (if needed).
+2. Extract actionable business insights from model results
 
 ## Key Outcome (Part 1)
 This phase establishes a strong foundation for predictive modeling by:
